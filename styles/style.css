@@ -1,0 +1,196 @@
+#first {
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/d0cecbbf-1a20-4b48-b136-fb096af19515/bvlatuR/std/2880x1800/model-3-main-hero-a-desktop)
+    no-repeat center center/cover;
+}
+#first .colu {
+  justify-content: space-between;
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+}
+
+.logo {
+  padding: 0 16px;
+}
+.logo svg {
+  height: 20px;
+  width: 120px;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 20px;
+  font-weight: 700;
+}
+/*  */
+/*  */
+header h1 {
+  margin: 80px 0;
+}
+/*  */
+/*  */
+.info {
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.infoPart {
+  padding: 20px;
+  max-width: 320px;
+  text-align: center;
+}
+.infoPart h2,
+#clock {
+  display: inline;
+}
+#clock {
+  position: relative;
+}
+#clock-br {
+  position: absolute;
+  opacity: 0.2;
+  bottom: 25%;
+  right: 21.5%;
+}
+#hand {
+  position: absolute;
+  padding: 0 16px 16px 16px;
+  bottom: -100%;
+  right: 15%;
+}
+.infoPart h2 {
+  font-size: 28px;
+  font-weight: 100s;
+}
+.infoPart h6 {
+  padding-top: 8px;
+  line-height: 18px;
+}
+/*  */
+/*  */
+.down {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  opacity: 0.8;
+  padding-bottom: 5px;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* second */
+
+main {
+  height: 100%;
+  width: 75%;
+}
+main img {
+  width: 100%;
+}
+/*  */
+/*  */
+#second .sc {
+  align-items: center;
+  justify-content: space-between;
+}
+article {
+  max-width: 425px;
+  height: 100%;
+  padding: 45px 40px;
+  justify-content: space-between;
+}
+.text {
+  font-weight: 400;
+  width: 100%;
+  padding-right: 10px;
+}
+.text h5 {
+  line-height: 20px;
+  font-weight: 600;
+}
+.text h4 {
+  font-weight: 300;
+  color: #555;
+  padding-bottom: 4px;
+  font-size: 17px;
+}
+.text h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.text p {
+  color: #555;
+  line-height: 20px;
+}
+.text p a {
+  color: #555;
+  border-bottom: 1px solid #555;
+  transition: 0.3s;
+}
+.text p a:hover {
+  border-width: 2px;
+  border-color: #333;
+  transition: 0.1s;
+}
+.par {
+  padding: 30px 0;
+}
+/* third */
+/* third */
+/* third */
+/* third */
+/* third */
+.red {
+  height: 100%;
+  width: 100%;
+}
+.tes {
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop)
+    no-repeat center center/cover;
+
+  width: 100%;
+  height: 75%;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 45px;
+  gap: 0px;
+}
+.white {
+  padding: 24px 170px;
+  justify-content: center;
+}
+
+.white .text h4 {
+  padding-top: 16px;
+}
+
+.white .text h3 {
+  padding-bottom: 22px;
+}
+.white .left {
+  width: 35%;
+}
+.white .right {
+  width: 50%;
+  padding-top: 15px;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.tes2 {
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/02b9fe62-2569-4fc8-bfa1-a8f8cdd9d48e/bvlatuR/std/1440x900/lhd-awd-hero-desktop)
+    no-repeat center center/cover;
+
+  width: 100%;
+  height: 75%;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 45px;
+  gap: 0px;
+}

@@ -1,0 +1,116 @@
+/* glob */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-family: "Gotham SSm";
+  font-size: 14px;
+}
+
+section {
+  height: 100vh;
+}
+header {
+  text-align: center;
+}
+.sc {
+  height: 100%;
+  width: 100%;
+}
+
+.t-w {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 40px;
+}
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+/* flex */
+.colu {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* order now button  */
+/* order now button  */
+.Obtn {
+  font-size: 12px;
+  border: solid 3px;
+  border-radius: 360px;
+  padding: 10px 57px;
+}
+.b-w {
+  border-color: #fff;
+  color: #fff;
+  transition: 0.3s;
+}
+.b-b {
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+  padding: 10px 48px;
+}
+.b-w:hover {
+  background: #fff;
+  transition: 0.3s;
+  color: #444;
+}
+.b-b:hover {
+  background: rgb(0, 0, 0);
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+}
+
+/*  */
+/*  */
+
+/* learn more button */
+/* learn more button */
+.Lbtn {
+  display: flex;
+  align-items: center;
+  color: #222;
+}
+.Lbtn i {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 9px 10px;
+  border: #222 3px solid;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.Lbtn p {
+  margin: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.Lbtn:hover > .fa-plus {
+  background-color: #222;
+  color: #fff;
+  transition: 0.2s;
+}
+/* 
+<a class="Lbtn" href="#">
+        <i class="fa-regular fa-plus"></i>
+                 <p>LEARN MORE</p>
+    </a> */
