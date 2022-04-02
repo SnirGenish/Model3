@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/fonts.css" />
     <link rel="stylesheet" href="styles/glob.css" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/tablet.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -16,9 +17,100 @@
   </head>
   <body>
     <section id="first">
+      <div class="row" id="side">
+        <div class="row end">
+          <svg
+            onclick="hideMenu()"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            class="tds-icon tds-icon-close tds-modal-close-icon"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M18.53 17.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.748.748 0 0 1-1.06 0 .75.75 0 0 1 0-1.06L10.94 12 5.47 6.53a.75.75 0 1 1 1.06-1.06L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47z"
+              fill="#393C41"
+            ></path>
+          </svg>
+        </div>
+        <nav class="mobile-nav colu">
+          <ul>
+            <li>
+              <a href="#">Model S</a>
+            </li>
+            <li>
+              <a href="#">Model 3</a>
+            </li>
+            <li>
+              <a href="#">Model X</a>
+            </li>
+            <li>
+              <a href="#">Model Y</a>
+            </li>
+            <li>
+              <a href="#">Solar Roof</a>
+            </li>
+            <li>
+              <a href="#">Solar Panels</a>
+            </li>
+            <li>
+              <a href="#">Existing inventory</a>
+            </li>
+            <li>
+              <a href="#">Used inventory</a>
+            </li>
+            <li>
+              <a href="#">Trade-in</a>
+            </li>
+            <li>
+              <a href="#">Test Drive</a>
+            </li>
+            <li>
+              <a href="#">Powerwall</a>
+            </li>
+            <li>
+              <a href="#">Commercial Energy</a>
+            </li>
+            <li>
+              <a href="#">Utilities</a>
+            </li>
+            <li>
+              <a href="#">Find Us</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Investor Relations</a>
+            </li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Account</a></li>
+            <li>
+              <a class="more row" href="#"
+                >More
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  class="tds-icon tds-icon--small tds-icon-chevron-small--90"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    d="M2.75 11.025a.748.748 0 0 1-.53-1.281l5.264-5.25a.75.75 0 0 1 1.06 0l5.236 5.223a.75.75 0 1 1-1.06 1.062L8.014 6.084 3.28 10.806a.748.748 0 0 1-.53.219z"
+                    fill="#393C41"
+                    transform="rotate(90 8 8)"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div class="sc colu t-w">
         <div class="top">
-          <nav class="row">
+          <nav class="desk-nav row">
             <a href="#" class="logo">
               <svg
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -34,6 +126,7 @@
                 ></path>
               </svg>
             </a>
+
             <ul>
               <li>
                 <a href="#">Model S</a>
@@ -59,7 +152,9 @@
               <li><a href="#">Account</a></li>
               <li><a href="#">Menu</a></li>
             </ul>
+            <a class="menubtn tablet" onclick="showMenu()">menu</a>
           </nav>
+
           <header>
             <h1>Model 3</h1>
           </header>
@@ -162,6 +257,14 @@
           </div>
         </div>
       </div>
+      <script>
+        function showMenu() {
+          document.getElementById("side").id = "show-side";
+        }
+        function hideMenu() {
+          document.getElementById("show-side").id = "side";
+        }
+      </script>
     </section>
     <section id="second">
       <div class="sc row">
@@ -171,10 +274,12 @@
             alt=""
           />
         </main>
-        <article class="colu">
+        <article>
           <div class="text">
-            <h4>Safety</h4>
-            <h3>Built for Safety</h3>
+            <div class="none">
+              <h4>Safety</h4>
+              <h3>Built for Safety</h3>
+            </div>
             <div class="par">
               <p>
                 Safety is the most important part of every Tesla. We design our
@@ -195,12 +300,19 @@
               </p>
             </div>
           </div>
-          <div class="buttons row">
-            <a class="Lbtn" href="#">
-              <i class="fa-regular fa-plus"></i>
-              <p>LEARN MORE</p>
-            </a>
-            <a class="Obtn b-b">ORDER NOW</a>
+          <div class="buttons colu">
+            <div class="tablet text">
+              <h4>Safety</h4>
+              <h3>Built for Safety</h3>
+            </div>
+            <div class="next">
+              <a class="Lbtn" href="#">
+                <i class="fa-regular fa-plus"></i>
+                <p>LEARN MORE</p>
+              </a>
+
+              <a class="Obtn b-b">ORDER NOW</a>
+            </div>
           </div>
         </article>
       </div>
@@ -287,7 +399,7 @@
           <div class="text left">
             <h4>Performance</h4>
             <h3>Quickest Acceleration</h3>
-            <div class="buttons row">
+            <div class="row">
               <a class="Lbtn" href="#">
                 <i class="fa-regular fa-plus"></i>
                 <p>LEARN MORE</p>

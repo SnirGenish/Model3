@@ -1,0 +1,145 @@
+#show-side {
+  display: block;
+  animation: shownav 0.7s;
+  position: absolute;
+  right: 0px;
+  height: 100vh;
+  width: 300px;
+  background-color: #fff;
+  color: #222;
+  overflow: auto;
+}
+@keyframes shownav {
+  0% {
+    opacity: 0.3;
+    transform: translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.tablet {
+  display: none;
+}
+#side {
+  display: none;
+  position: absolute;
+  right: 0px;
+  height: 100vh;
+  width: 300px;
+  background-color: #fff;
+  color: #222;
+  overflow: auto;
+}
+#side ul,
+#show-side ul {
+  flex-direction: column;
+  padding: 4px 32px 48px;
+  padding-top: 70px;
+}
+#side ul li,
+#show-side ul li {
+  padding: 13px 8px;
+}
+
+#show-side ul li:hover {
+  background-color: #787b8025;
+  border-radius: 11px;
+}
+#side ul li a #show-side,
+ul li a {
+  color: #393c41;
+  font-weight: 500;
+}
+.more {
+  justify-content: space-between;
+}
+.end {
+  justify-content: flex-end;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+.end svg {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.end svg path {
+  padding: 8px;
+}
+.end svg:hover {
+  background-color: rgba(85, 85, 85, 0.116);
+  border-radius: 50%;
+}
+.menubtn {
+  display: none;
+  background: #555;
+  color: #ffff;
+  padding: 7px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.menubtn:hover {
+  background-color: #222;
+}
+@media only screen and (max-width: 1200px) {
+  ul {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+  .mobile-nav ul {
+    display: block;
+  }
+  /*  */
+  /*  */
+  /*  */
+  /*  second*/
+  #second .row {
+    flex-direction: column;
+  }
+
+  main {
+    width: 75%;
+    height: 66%;
+  }
+  article {
+    flex-direction: row-reverse;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 0px;
+    gap: 3%;
+  }
+  .none {
+    display: none;
+  }
+
+  .par {
+    width: 510px;
+    padding: 5px;
+    margin: 0px;
+  }
+  .buttons {
+    align-items: flex-start;
+  }
+  .text {
+    padding: 0px;
+  }
+  .next {
+    flex-wrap: nowrap;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  .white .right {
+    width: 50vw;
+  }
+}

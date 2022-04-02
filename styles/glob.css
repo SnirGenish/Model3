@@ -10,6 +10,7 @@
 
 section {
   height: 100vh;
+  position: relative;
 }
 header {
   text-align: center;
@@ -53,10 +54,12 @@ h6 {
 /* order now button  */
 /* order now button  */
 .Obtn {
+  display: inline-block;
   font-size: 12px;
   border: solid 3px;
   border-radius: 360px;
   padding: 10px 57px;
+  white-space: nowrap;
 }
 .b-w {
   border-color: #fff;
@@ -85,8 +88,10 @@ h6 {
 
 /* learn more button */
 /* learn more button */
+
 .Lbtn {
   display: flex;
+
   align-items: center;
   color: #222;
 }
@@ -99,9 +104,10 @@ h6 {
   transition: 0.2s;
 }
 .Lbtn p {
-  margin: 10px;
+  padding: 10px;
   font-size: 12px;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 .Lbtn:hover > .fa-plus {

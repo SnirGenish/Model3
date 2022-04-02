@@ -5,7 +5,7 @@
 #first .colu {
   justify-content: space-between;
 }
-nav {
+.desk-nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 32px;
@@ -19,11 +19,17 @@ nav {
   width: 120px;
 }
 
-nav ul li a {
+.desk-nav ul li a {
   color: #fff;
-  padding: 20px;
+  padding: 7px 18px;
   font-weight: 700;
 }
+.desk-nav ul li a:hover {
+  background: #757575c5;
+
+  border-radius: 10px;
+}
+
 /*  */
 /*  */
 header h1 {
@@ -77,6 +83,10 @@ header h1 {
   opacity: 0.8;
   padding-bottom: 5px;
 }
+.next {
+  display: flex;
+  flex-direction: row;
+}
 /*  */
 /*  */
 /*  */
@@ -99,28 +109,32 @@ main img {
 }
 article {
   max-width: 425px;
-  height: 100%;
   padding: 45px 40px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   justify-content: space-between;
 }
 .text {
   font-weight: 400;
-  width: 100%;
   padding-right: 10px;
 }
 .text h5 {
   line-height: 20px;
   font-weight: 600;
+  white-space: nowrap;
 }
 .text h4 {
   font-weight: 300;
   color: #555;
   padding-bottom: 4px;
   font-size: 17px;
+  white-space: nowrap;
 }
 .text h3 {
   font-size: 28px;
   font-weight: 700;
+  white-space: nowrap;
 }
 .text p {
   color: #555;
@@ -139,29 +153,33 @@ article {
 .par {
   padding: 30px 0;
 }
+.buttons {
+  align-items: center;
+}
 /* third */
 /* third */
 /* third */
 /* third */
 /* third */
 .red {
+  justify-content: space-between;
   height: 100%;
   width: 100%;
 }
 .tes {
   background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop)
     no-repeat center center/cover;
-
-  width: 100%;
   height: 75%;
+  width: 100%;
   justify-content: center;
   align-items: flex-end;
   padding: 45px;
-  gap: 0px;
 }
 .white {
-  padding: 24px 170px;
+  padding: 24px 12vw;
   justify-content: center;
+  height: 25%;
+  gap: 8%;
 }
 
 .white .text h4 {
@@ -172,10 +190,10 @@ article {
   padding-bottom: 22px;
 }
 .white .left {
-  width: 35%;
+  width: 20;
 }
 .white .right {
-  width: 50%;
+  width: 40vw;
   padding-top: 15px;
 }
 /*  */
