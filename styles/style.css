@@ -114,6 +114,7 @@ article {
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
+  gap: 240px;
 }
 .text {
   font-weight: 400;
