@@ -49,6 +49,7 @@ header h1 {
 }
 .infoPart h2,
 #clock {
+  white-space: nowrap;
   display: inline;
 }
 #clock {
@@ -86,6 +87,20 @@ header h1 {
 .next {
   display: flex;
   flex-direction: row;
+}
+.down a svg {
+  animation: jump 2s infinite;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 /*  */
 /*  */
@@ -196,6 +211,10 @@ article {
 .white .right {
   width: 40vw;
   padding-top: 15px;
+}
+.bshow {
+  display: none;
+  flex-direction: row;
 }
 /*  */
 /*  */

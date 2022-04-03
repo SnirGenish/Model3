@@ -87,6 +87,7 @@ ul li a {
 .menubtn:hover {
   background-color: #222;
 }
+
 @media only screen and (max-width: 1200px) {
   ul {
     display: none;
@@ -196,12 +197,37 @@ ul li a {
   }
   .tes,
   .tes2 {
-    height: 60%;
+    height: 55%;
   }
   .white .right {
     width: 100%;
   }
   .white {
     padding: 24px 4vw;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media only screen and (max-width: 520px) {
+  .infoPart h2,
+  #clock {
+    font-size: 20px;
+  }
+  #first {
+    background-size: cover;
+  }
+  main {
+    width: 100%;
+    height: 100%;
+  }
+  .tes,
+  .tes2 {
+    height: 50%;
+  }
+  .tes {
+    background-position-x: 70%;
   }
 }
